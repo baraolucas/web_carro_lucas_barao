@@ -167,7 +167,7 @@ section.module h2{
 
 section.module.content{
   padding: 40px 0;
-  background: #ece7d5;
+  background: gray;
 }
 
 section.module.parallax{
@@ -246,4 +246,19 @@ footer {
 
 hr{
   border-color: #000;
+}
+
+/*Adicionando estilo para o botão.*/
+
+button{
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #ece7d5;
+  border-radius: 20px;
+  background: #00000075;
+}
+
+button:hover{
+  background: #636159;
+  color: #ffffff;
 }
